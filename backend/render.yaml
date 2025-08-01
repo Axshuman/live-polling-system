@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: live-polling-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: FRONTEND_URL
+        value: https://your-frontend-url.vercel.app
+    healthCheckPath: /
