@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Required for Vercel to resolve assets correctly
+  base: './',
   build: {
-    outDir: 'dist', // this matches what Vercel expects
+    outDir: 'dist',
   },
   optimizeDeps: {
     exclude: ['lucide-react'],
