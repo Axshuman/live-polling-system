@@ -16,6 +16,6 @@
     }
   ],
   "env": {
-    "VITE_SERVER_URL": "@vite_server_url"
+    "VITE_SERVER_URL": "https://live-polling-backend-ganx.onrender.com"
   }
 }
